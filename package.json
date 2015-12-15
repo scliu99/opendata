@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/scliu99/opendata/issues"
   },
-  "homepage": "https://github.com/scliu99/opendata#readme"
+  "homepage": "https://github.com/scliu99/opendata#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "handy-http": "^1.0.2"
+  }
 }
