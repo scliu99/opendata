@@ -9,6 +9,8 @@
     <meta charset="utf-8" />
     <style>
         html, body { height: 100%; margin: 0; padding: 0; }
+        table tbody { height:700px; overflow-y:scroll; display:block; }
+        table thead { display:block; }
         table, th, tr, td {
             border: 1px solid #000000;
         }
@@ -22,9 +24,11 @@
             display: none;
         }
         #map { 
+            height: 700px;
+        }
+        .content {
             height: 700px; 
         }
-        
         .content table {
             float: left;
             width: 60%;

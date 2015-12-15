@@ -97,9 +97,6 @@ function fetchData(page, rows){
         $("#message").hide();    
     },"json")
     
-    
-    
-    
 }
  
 function initMap() {
