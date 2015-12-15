@@ -2,7 +2,7 @@ var maxPage = 1;
 var map;
 $(document).ready(function () {
     var page = 1;
-    var rows = 20;
+    var rows = 10;
     
     fetchData(page, rows);
     $("#pageRow").change(function(){
@@ -40,7 +40,7 @@ $(document).ready(function () {
         fetchData(page, rows); 
         $("#pageNo").val(page);
     });
-   
+    
 });
 
 
@@ -53,11 +53,14 @@ function fetchData(page, rows){
         //for(var item in data)
         var $myGrid = $("#myGrid");
         $myGrid.empty();
-        var head = "<th><td>ID</td><td>地區</td><td>地址</td><td>熱點類別</td></th>";
+        var head = "<tr><th></th><th>ID</th><th>名稱</th><th>地區</th><th>地址</th><th>熱點類別</th></tr>";
         $myGrid.append(head);
         for(var i=0; i<data.rows.length; i++){
             //console.dir(data.rows[i]);
+            var lat = data.rows[i].LAT - 0;
+            var lng = data.rows[i].LNG - 0;
             var row = "<tr>";
+            row += "<td><input type='checkbox' data-index='" + i + "'></input></td>";
             row += "<td>"+ data.rows[i]._id  +"</td>";
             row += "<td>"+ data.rows[i].HOTSPOT_NAME  +"</td>";
             row += "<td>"+ data.rows[i].AREA  +"</td>";
@@ -65,14 +68,32 @@ function fetchData(page, rows){
             row += "<td>"+ data.rows[i].HOTSPOT_TYPE  +"</td>";
             row += "</tr>";
             $myGrid.append(row);
-            var lat = data.rows[i].LAT - 0;
-            var lng = data.rows[i].LNG - 0;
-            var marker = new google.maps.Marker({
-                position: {lat: lat, lng: lng},
-                map: map,
-                title: 'Hello World!'
-            });
-        }
+        }    
+        // 將資料插入後才能設定事件
+        $("input:checkbox").on('change',function(){
+            //console.dir($(this));
+            //var $this = this;
+            var index = $(this).attr("data-index") - 0;
+            var lat = data.rows[index].LAT - 0;
+            var lng = data.rows[index].LNG - 0;
+            var center = new google.maps.LatLng(lat, lng);
+            map.panTo(center);
+            if($(this).is(":checked")){
+                var marker = new google.maps.Marker({
+                    position: {lat: lat, lng: lng},
+                    map: map,
+                    title: data.rows[index].ADDRESS
+                });
+                data.rows[index].marker = marker;
+            }else{
+                var marker = data.rows[index].marker;
+                if(marker){
+                    marker.setMap(null);
+                    marker = null;
+                }
+            }
+            
+        })
         $("#message").hide();    
     },"json")
     
