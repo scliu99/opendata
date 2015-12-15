@@ -1,0 +1,206 @@
+{
+    "page": "1",
+    "total": 242,
+    "records": 4840,
+    "rows": [{
+        "_id": "1",
+        "AP_ID": "BQ050001",
+        "HOTSPOT_NAME": "\u6c5f\u5b50\u7fe0\u7ad9",
+        "AREA": "\u6377\u904b\u7ad9",
+        "ADDRESS": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6587\u5316\u8def\u4e8c\u6bb5296\u865f(\u4ed8\u8cbb\u5340\u51675,6\u865f\u51fa\u53e3\u5f801,2\u865f\u51fa\u53e3\u8d70\u9053\u4e2d\u592e\u4e0a\u65b9\u4f4d\u7f6e)",
+        "HOTSPOT_TYPE": "Taipei Free\u514d\u8cbb\u7121\u7dda\u4e0a\u7db2\u71b1\u9ede(\u5ba4\u5167)",
+        "LNG": "121.472311",
+        "LAT": "25.02966",
+        "STATUS": "0"
+    }, {
+        "_id": "2",
+        "AP_ID": "BQ050002",
+        "HOTSPOT_NAME": "\u6c5f\u5b50\u7fe0\u7ad9",
+        "AREA": "\u6377\u904b\u7ad9",
+        "ADDRESS": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6587\u5316\u8def\u4e8c\u6bb5296\u865fB1(B1\u975e\u4ed8\u8cbb\u5340\u8fd1\u8a62\u554f\u8655)",
+        "HOTSPOT_TYPE": "Taipei Free\u514d\u8cbb\u7121\u7dda\u4e0a\u7db2\u71b1\u9ede(\u5ba4\u5167)",
+        "LNG": "121.472311",
+        "LAT": "25.02964",
+        "STATUS": "0"
+    }, {
+        "_id": "3",
+        "AP_ID": "BQ050003",
+        "HOTSPOT_NAME": "\u6c5f\u5b50\u7fe0\u7ad9",
+        "AREA": "\u6377\u904b\u7ad9",
+        "ADDRESS": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6587\u5316\u8def\u4e8c\u6bb5296\u865fB1(\u4e00,\u4e8c\u865f\u51fa\u53e3\u8d70\u5230\u4ea4\u63a5\u9ede)",
+        "HOTSPOT_TYPE": "Taipei Free\u514d\u8cbb\u7121\u7dda\u4e0a\u7db2\u71b1\u9ede(\u5ba4\u5167)",
+        "LNG": "121.472311",
+        "LAT": "25.02963",
+        "STATUS": "0"
+    }, {
+        "_id": "4",
+        "AP_ID": "BQ050004",
+        "HOTSPOT_NAME": "\u6c5f\u5b50\u7fe0\u7ad9",
+        "AREA": "\u6377\u904b\u7ad9",
+        "ADDRESS": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6587\u5316\u8def\u4e8c\u6bb5296\u865fB1(\u4e09\u865f\u51fa\u53e3B1\u96fb\u6276\u68af\u524d)",
+        "HOTSPOT_TYPE": "Taipei Free\u514d\u8cbb\u7121\u7dda\u4e0a\u7db2\u71b1\u9ede(\u5ba4\u5167)",
+        "LNG": "121.472311",
+        "LAT": "25.02962",
+        "STATUS": "0"
+    }, {
+        "_id": "5",
+        "AP_ID": "BQ050005",
+        "HOTSPOT_NAME": "\u6c5f\u5b50\u7fe0\u7ad9",
+        "AREA": "\u6377\u904b\u7ad9",
+        "ADDRESS": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6587\u5316\u8def\u4e8c\u6bb5296\u865fB1(\u4e94\u865f\u51fa\u53e3B1\u96fb\u6276\u68af\u524d)",
+        "HOTSPOT_TYPE": "Taipei Free\u514d\u8cbb\u7121\u7dda\u4e0a\u7db2\u71b1\u9ede(\u5ba4\u5167)",
+        "LNG": "121.472311",
+        "LAT": "25.02967",
+        "STATUS": "0"
+    }, {
+        "_id": "6",
+        "AP_ID": "BQ050007",
+        "HOTSPOT_NAME": "\u6c5f\u5b50\u7fe0\u7ad9",
+        "AREA": "\u6377\u904b\u7ad9",
+        "ADDRESS": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6587\u5316\u8def\u4e8c\u6bb5296\u865fB1(\u6708\u53f0\u5c64\u5317\u5074)",
+        "HOTSPOT_TYPE": "Taipei Free\u514d\u8cbb\u7121\u7dda\u4e0a\u7db2\u71b1\u9ede(\u5ba4\u5167)",
+        "LNG": "121.472312",
+        "LAT": "25.02967",
+        "STATUS": "0"
+    }, {
+        "_id": "7",
+        "AP_ID": "BQ050008",
+        "HOTSPOT_NAME": "\u6c5f\u5b50\u7fe0\u7ad9",
+        "AREA": "\u6377\u904b\u7ad9",
+        "ADDRESS": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6587\u5316\u8def\u4e8c\u6bb5296\u865fB1(\u6708\u53f0\u5c64\u5357\u5074)",
+        "HOTSPOT_TYPE": "Taipei Free\u514d\u8cbb\u7121\u7dda\u4e0a\u7db2\u71b1\u9ede(\u5ba4\u5167)",
+        "LNG": "121.472313",
+        "LAT": "25.02967",
+        "STATUS": "0"
+    }, {
+        "_id": "8",
+        "AP_ID": "BQ050009",
+        "HOTSPOT_NAME": "\u6c5f\u5b50\u7fe0\u7ad9",
+        "AREA": "\u6377\u904b\u7ad9",
+        "ADDRESS": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6587\u5316\u8def\u4e8c\u6bb5296\u865fB1(\u56db\u865f\u51fa\u53e3B1\u96fb\u6276\u68af\u524d)",
+        "HOTSPOT_TYPE": "Taipei Free\u514d\u8cbb\u7121\u7dda\u4e0a\u7db2\u71b1\u9ede(\u5ba4\u5167)",
+        "LNG": "121.472311",
+        "LAT": "25.02965",
+        "STATUS": "0"
+    }, {
+        "_id": "9",
+        "AP_ID": "BQ050010",
+        "HOTSPOT_NAME": "\u65b0\u57d4\u7ad9",
+        "AREA": "\u6377\u904b\u7ad9",
+        "ADDRESS": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6c11\u751f\u8def\u4e09\u6bb52\u865fB1(B1\u4e00\u865f\u51fa\u53e3\u8f49\u89d2\u8655)",
+        "HOTSPOT_TYPE": "Taipei Free\u514d\u8cbb\u7121\u7dda\u4e0a\u7db2\u71b1\u9ede(\u5ba4\u5167)",
+        "LNG": "121.468358",
+        "LAT": "25.023746",
+        "STATUS": "0"
+    }, {
+        "_id": "10",
+        "AP_ID": "BQ050011",
+        "HOTSPOT_NAME": "\u65b0\u57d4\u7ad9",
+        "AREA": "\u6377\u904b\u7ad9",
+        "ADDRESS": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6c11\u751f\u8def\u4e09\u6bb52\u865fB1(\u975e\u4ed8\u8cbb\u53402\u30013\u865f\u51fa\u53e3\u65b9\u5411\u8d70\u9053\uff0c\u4e0a\u7db2\u684c\u65c1)",
+        "HOTSPOT_TYPE": "Taipei Free\u514d\u8cbb\u7121\u7dda\u4e0a\u7db2\u71b1\u9ede(\u5ba4\u5167)",
+        "LNG": "121.468357",
+        "LAT": "25.023746",
+        "STATUS": "0"
+    }, {
+        "_id": "11",
+        "AP_ID": "BQ050012",
+        "HOTSPOT_NAME": "\u65b0\u57d4\u7ad9",
+        "AREA": "\u6377\u904b\u7ad9",
+        "ADDRESS": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6c11\u751f\u8def\u4e09\u6bb52\u865fB1(\u8a62\u554f\u8655\u524d)",
+        "HOTSPOT_TYPE": "Taipei Free\u514d\u8cbb\u7121\u7dda\u4e0a\u7db2\u71b1\u9ede(\u5ba4\u5167)",
+        "LNG": "121.468357",
+        "LAT": "25.023745",
+        "STATUS": "0"
+    }, {
+        "_id": "12",
+        "AP_ID": "BQ050013",
+        "HOTSPOT_NAME": "\u65b0\u57d4\u7ad9",
+        "AREA": "\u6377\u904b\u7ad9",
+        "ADDRESS": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6c11\u751f\u8def\u4e09\u6bb52\u865fB1(B1\u5c645\u865f\u51fa\u53e3\u8d70\u9053\u5167)",
+        "HOTSPOT_TYPE": "Taipei Free\u514d\u8cbb\u7121\u7dda\u4e0a\u7db2\u71b1\u9ede(\u5ba4\u5167)",
+        "LNG": "121.468358",
+        "LAT": "25.023745",
+        "STATUS": "0"
+    }, {
+        "_id": "13",
+        "AP_ID": "BQ050014",
+        "HOTSPOT_NAME": "\u65b0\u57d4\u7ad9",
+        "AREA": "\u6377\u904b\u7ad9",
+        "ADDRESS": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6c11\u751f\u8def\u4e09\u6bb52\u865fB1(\u6708\u53f0\u5c64\u5317\u908a)",
+        "HOTSPOT_TYPE": "Taipei Free\u514d\u8cbb\u7121\u7dda\u4e0a\u7db2\u71b1\u9ede(\u5ba4\u5167)",
+        "LNG": "121.468358",
+        "LAT": "25.023744",
+        "STATUS": "0"
+    }, {
+        "_id": "14",
+        "AP_ID": "BQ050015",
+        "HOTSPOT_NAME": "\u65b0\u57d4\u7ad9",
+        "AREA": "\u6377\u904b\u7ad9",
+        "ADDRESS": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6c11\u751f\u8def\u4e09\u6bb52\u865fB1(\u6708\u53f0\u5c64\u5357\u908a)",
+        "HOTSPOT_TYPE": "Taipei Free\u514d\u8cbb\u7121\u7dda\u4e0a\u7db2\u71b1\u9ede(\u5ba4\u5167)",
+        "LNG": "121.468357",
+        "LAT": "25.023744",
+        "STATUS": "0"
+    }, {
+        "_id": "15",
+        "AP_ID": "BQ050016",
+        "HOTSPOT_NAME": "\u65b0\u57d4\u7ad9",
+        "AREA": "\u6377\u904b\u7ad9",
+        "ADDRESS": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6c11\u751f\u8def\u4e09\u6bb52\u865fB1(\u4ed8\u8cbb\u5340B1\u8d70\u9053\u8fd1123\u865f\u51fa\u53e3)",
+        "HOTSPOT_TYPE": "Taipei Free\u514d\u8cbb\u7121\u7dda\u4e0a\u7db2\u71b1\u9ede(\u5ba4\u5167)",
+        "LNG": "121.468356",
+        "LAT": "25.023746",
+        "STATUS": "0"
+    }, {
+        "_id": "16",
+        "AP_ID": "BQ050017",
+        "HOTSPOT_NAME": "\u65b0\u57d4\u7ad9",
+        "AREA": "\u6377\u904b\u7ad9",
+        "ADDRESS": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6c11\u751f\u8def\u4e09\u6bb52\u865fB1(\u975e\u4ed8\u8cbb\u5340B1\u8d70\u9053\u8fd1\u8a62\u554f\u8655)",
+        "HOTSPOT_TYPE": "Taipei Free\u514d\u8cbb\u7121\u7dda\u4e0a\u7db2\u71b1\u9ede(\u5ba4\u5167)",
+        "LNG": "121.468356",
+        "LAT": "25.023745",
+        "STATUS": "0"
+    }, {
+        "_id": "17",
+        "AP_ID": "BQ050018",
+        "HOTSPOT_NAME": "\u5e9c\u4e2d\u7ad9",
+        "AREA": "\u6377\u904b\u7ad9",
+        "ADDRESS": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u7e23\u6c11\u5927\u9053\u4e00\u6bb5193\u865fB1(B5\u6708\u53f0\u5c64\uff0c\u9760(\u8eca\u884c\u65b9\u5411\u6c38\u5be7)\u6708\u53f0\u908a\u4e0a\u65b9)",
+        "HOTSPOT_TYPE": "Taipei Free\u514d\u8cbb\u7121\u7dda\u4e0a\u7db2\u71b1\u9ede(\u5ba4\u5167)",
+        "LNG": "121.4594",
+        "LAT": "25.00863",
+        "STATUS": "0"
+    }, {
+        "_id": "18",
+        "AP_ID": "BQ050019",
+        "HOTSPOT_NAME": "\u4e9e\u6771\u91ab\u9662\u7ad9",
+        "AREA": "\u6377\u904b\u7ad9",
+        "ADDRESS": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u5357\u96c5\u5357\u8def\u4e8c\u6bb517\u865fB1(\u4ed8\u8cbb\u5340\u5167\u8a62\u554f\u8655\u524d)",
+        "HOTSPOT_TYPE": "Taipei Free\u514d\u8cbb\u7121\u7dda\u4e0a\u7db2\u71b1\u9ede(\u5ba4\u5167)",
+        "LNG": "121.4524",
+        "LAT": "24.99881",
+        "STATUS": "0"
+    }, {
+        "_id": "19",
+        "AP_ID": "BQ050020",
+        "HOTSPOT_NAME": "\u4e9e\u6771\u91ab\u9662\u7ad9",
+        "AREA": "\u6377\u904b\u7ad9",
+        "ADDRESS": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u5357\u96c5\u5357\u8def\u4e8c\u6bb517\u865fB1(\u6708\u53f0\u5c64\u7ad9\u9ad4\u5357\u5074\uff0c\u8eca\u884c\u65b9\u5411\u5f80\u5357\u6e2f\u5c55\u89bd\u9928\uff0c\u5f801\u30012\u30013\u865f\u51fa\u53e3\u6a13\u68af\u524d)",
+        "HOTSPOT_TYPE": "Taipei Free\u514d\u8cbb\u7121\u7dda\u4e0a\u7db2\u71b1\u9ede(\u5ba4\u5167)",
+        "LNG": "121.4523",
+        "LAT": "24.99813",
+        "STATUS": "0"
+    }, {
+        "_id": "20",
+        "AP_ID": "BQ050021",
+        "HOTSPOT_NAME": "\u4e9e\u6771\u91ab\u9662\u7ad9",
+        "AREA": "\u6377\u904b\u7ad9",
+        "ADDRESS": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u5357\u96c5\u5357\u8def\u4e8c\u6bb517\u865fB1(\u6708\u53f0\u5c64\u7ad9\u9ad4\u5357\u5074\uff0c\u8eca\u884c\u65b9\u5411\u5f80\u6c38\u5be7\uff0c\u544a\u793a\u677f\u524d)",
+        "HOTSPOT_TYPE": "Taipei Free\u514d\u8cbb\u7121\u7dda\u4e0a\u7db2\u71b1\u9ede(\u5ba4\u5167)",
+        "LNG": "121.452",
+        "LAT": "24.99783",
+        "STATUS": "0"
+    }]
+}
