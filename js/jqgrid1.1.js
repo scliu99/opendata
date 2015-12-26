@@ -1,8 +1,8 @@
-var maxPage = 1;
-var map;
+var maxPage = 1;    // 存放最大頁數
+var map;            // 地圖物件
 $(document).ready(function () {
-    var page = 1;
-    var rows = 10;
+    var page = 1;   // 當前頁次
+    var rows = 10;  // 每頁行數
     
     fetchData(page, rows);
     $("#pageRow").change(function(){
@@ -12,7 +12,7 @@ $(document).ready(function () {
         //console.dir($(this).val());
         fetchData(page, rows);
     });
-    $("#prePage").click(function(){
+    $("#prePage").click(function(e){
         if(page <= 1) {
             page = 1;
         }else{
@@ -20,8 +20,10 @@ $(document).ready(function () {
             fetchData(page, rows);        
         }
         $("#pageNo").val(page);
+        e.preventDefault();
     });
-    $("#nextPage").click(function(){
+    $("#nextPage").click(function(e){
+        console.log(maxPage);
         if(page >= maxPage) {
             page = maxPage;
         }else{
@@ -29,6 +31,7 @@ $(document).ready(function () {
             fetchData(page, rows);        
         }
         $("#pageNo").val(page);
+        e.preventDefault();
     });
     $("#pageNo").blur(function(){
         page = $(this).val();
@@ -44,21 +47,24 @@ $(document).ready(function () {
 });
 
 
-
+// 透過taipei opendata抓取資料.並組合成table裡的內容
 function fetchData(page, rows){
     $("#message").show();
     $.get("/service/wifiod?page="+page+"&rows="+rows, function(data){
         maxPage = data.total;
+        console.log(maxPage);
         //$("myGrid").app
         //for(var item in data)
         var $myGrid = $("#myGrid");
         $myGrid.empty();
+        // head為欄位標題
         var head = "<tr><th></th><th>ID</th><th>名稱</th><th>地區</th><th>地址</th><th>熱點類別</th></tr>";
         $myGrid.append(head);
+        // 組合資料列
         for(var i=0; i<data.rows.length; i++){
             //console.dir(data.rows[i]);
-            var lat = data.rows[i].LAT - 0;
-            var lng = data.rows[i].LNG - 0;
+            var lat = data.rows[i].LAT - 0; // 緯度
+            var lng = data.rows[i].LNG - 0; // 經度
             var row = "<tr>";
             row += "<td><input type='checkbox' data-index='" + i + "'></input></td>";
             row += "<td>"+ data.rows[i]._id  +"</td>";

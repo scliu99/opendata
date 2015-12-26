@@ -1,6 +1,6 @@
 $(document).ready(function () {
      $("#jqGrid").jqGrid({
-        url: 'service/wifiod.php',
+        url: 'service/wifiod',
         mtype: "GET",
         datatype: "json",
         colNames:['Id','熱點', '地區', '地址', '熱點類別', 'LNG', 'LAT'],

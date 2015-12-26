@@ -7,10 +7,21 @@ var express = require('express'),
     };
     
 var app = express();
+express.static('public');
+
+app.use('/bower_components/bootstrap/dist/css', express.static('bower_components/bootstrap/dist/css'));
+app.use('/bower_components/jquery/dist', express.static('bower_components/jquery/dist'));
+app.use('/bower_components/bootstrap/dist/js', express.static('bower_components/bootstrap/dist/js'));
+app.use('/image', express.static('image'));
+
 app.use('/lib', express.static('lib'));
 app.use('/js', express.static('js'));
 app.get('/index1.html',function(req, res){
     res.sendFile(__dirname + "/index1.html");
+    
+})
+app.get('/index3.html',function(req, res){
+    res.sendFile(__dirname + "/index3.html");
     
 })
 app.get('/service/wifiod', function(req, res) {
